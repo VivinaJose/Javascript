@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            JavaScript final assignment</title>
+         </title>
+        <script src="Script/script.js"></script> 
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
+    <body>
+        <form >
+            <label>Name as per ID proof <span class="star">*</span></label><br><br>
+            <input id="name" type="text" placeholder="Enter Your name"  required>
+            <label id="name1" class="error">Enter valid input</label><br>
+            <label id="name2" class="error">Please enter the value</label><br><br>
+            
+            
+            <label>Father's Name<span class="star">*</span></label><br><br>
+            <input id="fathername" type="text" placeholder="Enter Your father name" required>
+            <label id="fathername1" class="error">Enter valid input</label><br>
+            <label id="fathername2" class="error">Please enter the value</label><br><br>
+
+            <label>Email<span class="star">*</span></label><br><br>
+            <input id="email" type="email" placeholder="Enter your email id" required>
+            <label id="email1" class="error">Enter valid input</label><br>
+            <label id="email2" class="error">Please enter the value</label> <br><br>
+
+            <label>Date of Birth<span class="star">*</span></label><br><br>
+            <input id="dob" type="text" placeholder="Enter Your date of birth" required>
+            <label id="dob1" class="error">Enter valid input</label><br>
+            <label id="dob2" class="error">Please enter the value</label><br><br>
+
+            <label>Mobile No<span class="star">*</span></label><br><br>
+            <input id="mobile" type="number" placeholder="Enter Your mobile number" required>
+            <label id="mobile1" class="error">Enter valid input</label><br>
+            <label id="mobile2" class="error">Please enter the value</label><br><br>
+
+            <label>Current Address<span class="star">*</span></label><br><br>
+            <input id="caddress" type="text" placeholder="Enter Your current address" required>
+            <label id="caddress1" class="error">Enter valid input</label><br>
+            <label id="caddress2" class="error">Please enter the value</label><br><br>
+
+            <label>City<span class="star">*</span></label><br><br>
+            <input id="district" type="text" placeholder="Enter Your district" required>
+            <label id="district1" class="error">Enter valid input</label><br>
+            <label id="district2" class="error">Please enter the value</label><br><br>
+
+            <select id="state">
+                <option>Tamilnadu</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Andhra pradesh</option>
+            </select><br><br><br>
+
+            <label>Pin code<span class="star">*</span></label><br><br>
+            <input id="pincode" type="text" placeholder="Enter the pincode" required>
+            <label id="pincode1" class="error">Enter valid input</label><br>
+            <label id="pincode2" class="error">Please enter the value</label><br><br>
+            
+            <label>Permanent Address<span class="star">*</span></label>
+            <input id="check" type="checkbox" onclick="autofill()">Same as Current Address<br><br>
+            <input id="paddress" type="text" placeholder="Enter your permanent address"><br><br>
+            <label>City<span class="star">*</span></label><br><br>
+            <input id="city" type="text" placeholder="Enter your permanent city"><br><br>
+            <select id="pstate">
+                <option>Tamilnadu</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Andhra pradesh</option>
+            </select><br><br>
+            <label>Pin Code<span class="star">*</span></label><br><br>
+            <input id="pin" type="text" placeholder="Enter your permanent pincode"><br><br>
+            
+
+            <label>Upload profile photo<span class="star">*</span></label><br><br>
+            <input id="file" type="file"><br>
+            <label id= "file1" class="error">please upload the file</label><br>
+
+            <button onclick= "validate()" type="button">submit</button>
+        
+           </form> 
+    </body>
+</html> 
+
+
